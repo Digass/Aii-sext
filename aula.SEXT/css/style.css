@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Montserrat' !important;
+}
+
+
+.navBar {
+    width: 100%;
+    background-color: #05072F;
+    height: 80px;
+}
+
+.contentBAr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    width: 1800px;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+.showMenu ul {
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    color: #FFF;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.divHelp{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.showMenu > ul > li:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.helpBar{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    color: #FFF;
+    font-weight: 700;
+    align-items: center;
+    cursor: pointer;
+}
+
+.criarCont{
+    color: red;
+    cursor: pointer;
+}
+.meioPag{
+    height: 100%;
+    width: 55%;
+    /* flex-grow: 1; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #01041b;
+}
+#music{
+    color: red;
+    font-size: 150px;
+}
+
+#forV{
+    color: white;
+    font-size: 100px;
+    text-align: center;
+}
+#letrinha{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0 30px;
+    text-align: c;
+}
+
+.vermelhinho:hover {
+    color: red;
+}
+
+/* SECTION */
+
+section {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 83dvh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.butaoMeio{
+    justify-content: space-between;
+}
+
+#down{
+    width: 240px;
+    height: 100px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    border-radius: 50px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.branquinho:hover {
+    background-color: white !important;
+    color: #000 !important;
+}
+
+#star{
+    width: 240px;
+    height: 100px;
+    background-color: #400093;
+    color: white;
+    font-size: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.imagemDireita{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    /* border: 3px solid orange; */
+}
+
+.imagemDireita img{
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-bottom: 80px;
+    object-fit: cover;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 30px;
+    background-color: #05072F;
+    color: white;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}  
+
+.barra{
+    width: 5px;
+    height: 100%;
+    background-color: red;
+}
+
+button {
+    border: none;
+    margin-left: 40px;
+}
